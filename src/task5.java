@@ -5,13 +5,10 @@ public class task5 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the value of n: ");
         int n = scanner.nextInt();
-
         int result = findFibonacci(n);
         System.out.println("The " + n + "th Fibonacci number is: " + result);
-
         scanner.close();
     }
-
     public static int findFibonacci(int n) {
         if (n <= 1) {
             return n;

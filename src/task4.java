@@ -3,17 +3,10 @@ import java.util.Scanner;
 public class task4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        // Input the number
         System.out.print("Enter a number: ");
         int n = scanner.nextInt();
-
-        // Calculate factorial
         long factorial = calculateFactorial(n);
-
-        // Output the factorial
         System.out.println(n + "! = " + factorial);
-
         scanner.close();
     }
 

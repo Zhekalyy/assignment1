@@ -17,7 +17,6 @@ public class task7 {
             System.out.print(array[i] + " ");
         }
     }
-
     public static void reverseArray(int[] arr, int start, int end) {
         if (start >= end) {
             return;
