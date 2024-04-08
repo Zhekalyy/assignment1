@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /**
  * This class contains a program to find the minimum element in an array of integers.
  */
